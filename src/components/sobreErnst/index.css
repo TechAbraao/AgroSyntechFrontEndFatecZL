@@ -94,12 +94,13 @@
         height: 60%;
     }
 }
-@media (max-width: 410px) {
+@media (max-width: 490px) {
     .sobreErnst-text-area > h3 {
-        font-size: 25px;
+        font-size: 21px;
     }
     .sobreErnst-text-area > h1 {
-        font-size: 50px;
+        font-size: 40px;
+        height: 40px;
     }
     .sobreErnst-text-area > p {
         font-size: 20px;
@@ -107,5 +108,32 @@
     }
     .sobreErnst-section {
         height: 100vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .sobreErnst-text-area > p {
+        font-size: 18px;
+    }
+}
+@media (max-width: 300px) {
+    .sobreErnst-text-area > p {
+        font-size: 17px;
+    }
+}
+@media (max-height: 700px) {
+    .sobreErnst-text-area {
+        justify-content: start;
+        padding-top: 20px;
+    }
+}
+@media (max-height: 600px) {
+    .sobreErnst-text-area {
+        height: 110vh;
+    }
+}
+@media (max-height: 550px) {
+    .sobreErnst-text-area {
+        height: 117vh;
     }
 }

@@ -30,8 +30,10 @@
     font-size: 20px;
 }
 .cardMissao-icon-button {
-    margin-right: 120px;
-    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    align-items: start;
+    padding-left: 50px;
 }
 @media (max-width: 1600px) {
     .cardMissao-icon-button {
@@ -45,7 +47,56 @@
     }
 }
 @media (max-width: 480px) {
+    .cardMissao-icon-button {
+       width: 250px;
+       padding-left: 30px;
+    }
+}
+@media (max-width: 480px) {
     .cardMissao-section {
         width: 250px;
+    }
+}
+@media (max-width: 370px) {
+    .cardMissao-section {
+        width: 230px;
+    }
+    .cardMissao-section > h1 {
+        font-size: 25px;
+    }
+    .cardMissao-section > p {
+        font-size: 16px;
+    }
+}
+
+@media (max-height: 750px) {
+    .cardMissao-section {
+        gap: 13px;
+    }
+}
+@media (max-height: 690px) {
+    .cardMissao-section {
+        gap: 5px;
+    }
+}
+@media (max-height: 630px) {
+    .cardMissao-section {
+        gap: 7px;
+    }
+    .cardMissao-section > h1 {
+        font-size: 22px;
+    }
+    .cardMissao-section > p {
+        font-size: 15px;
+        width: 210px;
+    }
+}
+@media (max-height: 565px) {
+    .cardMissao-section > h1 {
+        font-size: 19px;
+    }
+    .cardMissao-section > p {
+        font-size: 14px;
+        width: 210px;
     }
 }

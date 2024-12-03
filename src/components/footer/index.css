@@ -56,3 +56,18 @@ footer {
         height: 30px;
     }
 }
+@media (max-height: 670px) {
+    .footer-superior {
+        height: 30vh;
+    }
+}
+@media (max-height: 570px) {
+    .footer-superior {
+        height: 35vh;
+    }
+}
+@media (max-height: 470px) {
+    .footer-superior {
+        height: 40vh;
+    }
+}

@@ -16,6 +16,15 @@
 .buttonCard-template > p {
     font-size: 20px;
 }
-@media (max-width: 1600px) {
-
+@media (max-height: 700px) {
+    .buttonCard-template > p {
+        font-size: 17px;
+        
+    }
+}
+@media (max-height: 700px) {
+    .buttonCard-template > p {
+        font-size: 13px;
+       
+    }
 }

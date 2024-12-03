@@ -152,3 +152,14 @@ span {
       height: 80px;
    }
 }
+
+@media (max-height: 565px) {
+   .main-center {
+      margin-bottom: 80px;
+   }
+}
+@media (max-height: 730px) {
+   .main-center {
+      margin-bottom: 150px;
+   }
+}

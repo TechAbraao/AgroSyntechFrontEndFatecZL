@@ -71,12 +71,36 @@
         font-size: 20px;
     }
 }
+@media (max-width: 650px) {
+    .card-missao-template-texto > h1 {
+        font-size: 35px;
+    }
+    .card-missao-template-texto > p {
+        font-size: 18px;
+    }
+}
 @media (max-width: 500px) {
     .card-missao-template-texto > h1 {
         font-size: 30px;
     }
     .card-missao-template-texto > p {
         font-size: 17px;
+    }
+}
+@media (max-width: 450px) {
+    .card-missao-template-texto > h1 {
+        font-size: 27px;
+    }
+    .card-missao-template-texto > p {
+        font-size: 15.5px;
+    }
+}
+@media (max-width: 370px) {
+    .card-missao-template-texto > h1 {
+        font-size: 24px;
+    }
+    .card-missao-template-texto > p {
+        font-size: 14.5px;
     }
 }
 

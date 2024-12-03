@@ -13,7 +13,7 @@
 }
 
 .NavbarHamburguer > .NavbarHamburguer-line {
-   background-color: #1e1e1e;
+   background-color: #FBFBFB;
    width: 30px;
    height: 4px;
    border-radius: 20px;
@@ -38,4 +38,15 @@
    font-weight: 600;
    color: #202020;
    cursor: pointer;
+}
+@media (max-height: 700px) {
+   .NavbarHamburguer {
+      width: 45px;
+      height: 45px;
+      gap: 5px
+   }
+   .NavbarHamburguer > .NavbarHamburguer-line {
+      width: 22px;
+      height: 3px;
+   }
 }
