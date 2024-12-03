@@ -11,7 +11,6 @@ const CardTestemonial = ({ data }) => {
                     <p>{data.cargo}</p>
                 </div>
             </div>
-
             <p className="card-testemonial-text">{data.content}</p>
         </article>
     );

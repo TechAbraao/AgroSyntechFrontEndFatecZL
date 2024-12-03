@@ -2,6 +2,13 @@ import "./index.css"
 import FundoForm from './assets/fundo-form.png'
 
 const FormPage = () => {
+
+   const handleSubmit = (e) => {
+      e.preventDefault();
+      
+      alert("Cadastro realizado com sucesso.")
+   }
+
    return (
       <div className="htmlForm__container">
          <article className="htmlForm__article">
@@ -20,7 +27,7 @@ const FormPage = () => {
                />
             </section>
 
-            <form id="htmlForm" action="#" method="post">
+            <form id="htmlForm" action="#" method="post" onSubmit={handleSubmit}>
                <label htmlFor="nome">Nome:</label>
                <input type="text" id="nome" name="nome" required />
 
@@ -45,7 +52,7 @@ const FormPage = () => {
                   name="dataNascimento"
                   required
                />
-
+               
                <button type="submit">Enviar</button>
             </form>
          </article>

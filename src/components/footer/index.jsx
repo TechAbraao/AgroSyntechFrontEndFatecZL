@@ -4,16 +4,13 @@ import "./index.css";
 const Footer = () => {
     const data_links = [
         {
-            link_name: "HOME",
+            link_name: "Termos de Uso",
         },
         {
-            link_name: "SOBRE",
+            link_name: "Política de Privacidade",
         },
         {
-            link_name: "PRÁTICAS",
-        },
-        {
-            link_name: "CONTATO",
+            link_name: "Termo de Garantia",
         },
     ];
     return (
@@ -44,6 +41,11 @@ const Footer = () => {
                 <p>
                     Todos os Direitos Reservados | <span>AgroSyntech</span>
                 </p>
+                <div className="footer-inferior-contato">
+                    <p>Telefone: (11) 98326-3585 </p>
+                    <p>E-mail: agrosyntech.contato@hotmail.com</p>
+                    <p>Endereço: R. da Diversão, 90</p>
+                </div>
             </div>
         </footer>
     );

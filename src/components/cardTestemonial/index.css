@@ -7,6 +7,12 @@
     justify-content: center;
     gap: 2rem;
     cursor: pointer;
+    font-family: "Oswald", serif;
+    color: #202020;
+    text-align: center;
+}
+.card-testemonial-head h3 {
+    font-size: 30px;
 }
 
 .card-testemonial-head {
@@ -17,4 +23,20 @@
 
 .card-testemonial-text{
     width: 90%;
+}
+@media (max-width: 1050px) {
+    .card-tetemonial {
+        width: 400px;
+        height: 300px;
+    }
+}
+@media (max-width: 420px) {
+    .card-tetemonial {
+        width: 300px;
+    }
+}
+@media (max-width: 420px) {
+    .card-tetemonial {
+        width: 250px;
+    }
 }

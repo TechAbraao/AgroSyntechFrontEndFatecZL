@@ -12,20 +12,23 @@ footer {
 }
 .footer-inferior {
     background-color: #1e1e1e;
-    height: 30%;
+    height: 80%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
+
 .footer-inferior p {
     color: white;
-    font-size: 30px;
+    font-size: 23px;
 }
 
 .container-social-midia-footer {
     display: flex;
     gap: 1rem;
 }
+
+
 
 .container-social-midia-footer div {
     background-color: #f8bb6f;
@@ -54,6 +57,21 @@ footer {
     }
     .navbar-agrosyntech-logo {
         height: 30px;
+    }
+}
+@media (max-width: 700px) {
+    .footer-inferior {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+}
+@media (max-width: 400px) {
+    .footer-inferior p {
+        font-size: 17px;
     }
 }
 @media (max-height: 670px) {
