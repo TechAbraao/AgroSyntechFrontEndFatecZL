@@ -1,0 +1,140 @@
+/* Fontes Importadas */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Lato:wght@400;700&display=swap");
+
+article {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+.form__container {
+   background-color: #e9e6e1;
+   font-family: "Lato", sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   padding: 50px 5px;
+}
+
+.form__article {
+   background-color: #ffffff;
+   display: flex;
+   flex-direction: row;
+   padding: 20px 40px;
+   width: 80%;
+   max-width: 800px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   gap: 30px;
+}
+
+.from__selection {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   justify-content: center;
+}
+
+.from__h2 {
+   font-size: 30px;
+   font-weight: bold;
+   color: #124a27;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   font-family: "Dosis", sans-serif;
+}
+
+.from__p {
+   font-size: 14px;
+   color: #124a27;
+   margin: 0 0 20px;
+   font-family: "Lato", sans-serif;
+}
+
+.from__img {
+   width: 60%;
+   margin-left: 140px;
+}
+
+/* Formulário */
+form {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   font-family: "Lato", sans-serif;
+}
+
+label {
+   font-size: 14px;
+   color: #124a27;
+   margin-bottom: -5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 14px;
+   color: #000000;
+}
+
+input::placeholder {
+   color: #9c9c9c;
+}
+
+form button {
+   background-color: #124a27;
+   color: #ffffff;
+   padding: 12px;
+   font-size: 16px;
+   font-weight: bold;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-top: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+button:hover {
+   background-color: #fac646;
+   color: #124a27;
+}
+
+
+@media (max-width: 1200px) {
+   .from__selection > img {
+      width: 0px;
+      height: 0px;
+   }
+   article {
+      flex-direction: column;
+   }
+}
+@media (max-width: 615px) {
+   .from__selection > h2 {
+      font-size: 25px;
+   }
+   .from__selection > p {
+      width: 200px;
+   }
+}
+@media (max-width: 515px) {
+   .from__selection > h2 {
+      font-size: 25px;
+      width: 300px;
+   }
+   .from__selection > p {
+      width: 300px;
+   }
+}

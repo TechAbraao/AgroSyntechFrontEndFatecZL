@@ -1,0 +1,21 @@
+.buttonCard-template {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+    
+}
+
+.buttonCard-template > button {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonCard-template > p {
+    font-size: 20px;
+}
+@media (max-width: 1600px) {
+
+}

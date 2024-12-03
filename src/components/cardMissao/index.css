@@ -1,0 +1,51 @@
+.cardMissao-section {
+    background-color:#F4F4F4;;
+    width: 300px;
+    height: 45vh;
+    border-radius: 0px 60px 60px 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: #1E1E1E;
+}
+.cardMissao-section > .cardMissao-icon {
+    background-color: #F8BB6F;
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardMissao-section > h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.cardMissao-section > p {
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+}
+.cardMissao-icon-button {
+    margin-right: 120px;
+    margin-top: 20px;
+}
+@media (max-width: 1600px) {
+    .cardMissao-icon-button {
+        margin-left: 20px;
+    }
+    .cardMissao-section p {
+        font-size: 18px;
+    }
+    .cardMissao-section > h1 {
+        font-size: 32px;
+    }
+}
+@media (max-width: 480px) {
+    .cardMissao-section {
+        width: 250px;
+    }
+}

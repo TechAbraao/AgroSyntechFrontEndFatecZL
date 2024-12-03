@@ -1,0 +1,82 @@
+.cardmissao-section {
+    background-color: #F4F4F4;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", serif;
+}
+.cardmissao-section > .cardmissao-template {
+    position: absolute;
+    top: -60px;
+    width: 80%;
+    height: 90%;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+.cardmissao-template > .card-missao-template-texto { 
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-missao-template-texto > h1 {
+    font-size: 60px;
+    color: #1E1E1E;
+}
+.card-missao-template-texto > p {
+    font-size: 25px;
+    height: 20px;
+    color: #1E1E1E;
+    margin-top: 20px;
+}
+#card-missao-verde {
+    color: #124A27;
+}
+.card-missao-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+@media (max-width: 1600px) {
+
+}
+@media (max-width: 1300px) {
+    .card-missao-cards {
+        flex-direction: column;
+        height: 6000px;
+    }
+    .card-missao-template-texto > h1 {
+        font-size: 50px;
+    }
+    .card-missao-template-texto > p {
+        font-size: 25px;
+    }
+    .cardmissao-section {
+        height: 180vh;
+    }
+}
+@media (max-width: 800px) {
+    .card-missao-template-texto > h1 {
+        font-size: 40px;
+    }
+    .card-missao-template-texto > p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .card-missao-template-texto > h1 {
+        font-size: 30px;
+    }
+    .card-missao-template-texto > p {
+        font-size: 17px;
+    }
+}
+

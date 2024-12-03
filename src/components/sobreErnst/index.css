@@ -1,0 +1,111 @@
+.sobreErnst-section {
+    background-color: #F4F4F4;
+    font-family: "Oswald", serif;
+    height: 80vh;
+    display: flex;
+}
+.sobreErnst-section h3 {
+    font-size: 30px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    height: 22px;
+}
+.sobreErnst-section h1 {
+    font-size: 65px;
+    margin-bottom: 40px;
+}
+.sobreErnst-section p {
+    width: 70%;
+    font-size: 30px;
+    text-align: justify;
+}
+.sobreErnst-text-area {
+    width: 60%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8BB6F;
+    height: 100%;
+    position: relative;
+}
+.fundador-text-area {
+    color: #124A27
+}
+.sobreErnst-foto {
+    background-color: red;
+    width: 600px;
+    height: 650px;
+    border-radius: 0px 30px 30px 30px;
+    background-image: url("./assets/foto-ernst.png");
+    background-size: cover;
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 45px;
+}
+@media (max-width: 1775px) {
+    .sobreErnst-foto {
+        margin-left: 950px;
+    }
+}
+@media (max-width: 1625px) {
+    .sobreErnst-foto {
+        margin-left: 850px;
+    }
+}
+@media (max-width: 1525px) {
+    .sobreErnst-foto {
+        background-image: none;
+        background-color: red;
+        width: 0px;
+        height: 0px;
+        border-radius: none;
+        position: none;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .sobreErnst-text-area {
+        width: 100%;
+    }
+}
+@media (max-width: 980px) {
+    .sobreErnst-text-area > h3 {
+        font-size: 25px;
+    }
+    .sobreErnst-text-area > h1 {
+        font-size: 50px;
+    }
+    .sobreErnst-text-area > p {
+        font-size: 25px;
+        height: 60%;
+    }
+}
+@media (max-width: 660px) {
+    .sobreErnst-text-area > h3 {
+        font-size: 25px;
+    }
+    .sobreErnst-text-area > h1 {
+        font-size: 50px;
+    }
+    .sobreErnst-text-area > p {
+        font-size: 20px;
+        height: 60%;
+    }
+}
+@media (max-width: 410px) {
+    .sobreErnst-text-area > h3 {
+        font-size: 25px;
+    }
+    .sobreErnst-text-area > h1 {
+        font-size: 50px;
+    }
+    .sobreErnst-text-area > p {
+        font-size: 20px;
+        height: 60%;
+    }
+    .sobreErnst-section {
+        height: 100vh;
+    }
+}

@@ -1,0 +1,58 @@
+footer {
+    height: 25vh;
+    width: 100%;
+    font-family: "Oswald", serif;
+}
+.footer-superior {
+    background-color: #f4f4f4;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-inferior {
+    background-color: #1e1e1e;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-inferior p {
+    color: white;
+    font-size: 30px;
+}
+
+.container-social-midia-footer {
+    display: flex;
+    gap: 1rem;
+}
+
+.container-social-midia-footer div {
+    background-color: #f8bb6f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+}
+.footer-superior > ul {
+    height: 30px;
+}
+@media (max-width: 1030px) {
+    .footer-superior {
+        flex-direction: column;
+        height: 25vh;
+        justify-content: center;
+        gap: 25px
+    }
+    .footer-inferior > p {
+        font-size: 20px;
+    }
+    .navbar-links-navegation > li {
+        font-size: 15px;
+    }
+    .navbar-agrosyntech-logo {
+        height: 30px;
+    }
+}
