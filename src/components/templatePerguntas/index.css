@@ -1,49 +1,88 @@
-.templatePerguntas {
+.templatePerguntas > summary {
     display: flex;
     align-items: center;
     background-color: #F4F4F4;
     width: 700px;
     height: 79px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     font-family: "Oswald", serif;
     justify-content: space-around;
-    gap: 80px
+    flex-direction: column;
 }
+
+summary > .templatePerguntas-closed-summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px; /* Ajuste o gap para telas menores */
+    width: 100%;
+}
+
 .templatePerguntas button {
     width: 50px;
     height: 50px;
     border-radius: 100%;
 }
-.templatePerguntas p {
+
+.templatePerguntas-closed-summary > p {
     font-size: 19px;
     font-weight: 500;
     width: 400px;
 }
 
+.templatePerguntas-open-summary {
+    background-color: #F4F4F4;
+    width: 700px;
+    height: 20vh;
+    text-align: left;
+    font-family: "Oswald", serif;
+    font-size: 15px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.templatePerguntas-open-summary > p {
+    width: 90%;
+}
+
+/* Media Queries */
 @media (max-width: 750px) {
-    .templatePerguntas {
+    .templatePerguntas > summary {
         width: 550px;
-        gap: 30px;
+    }
+
+    .templatePerguntas-open-summary {
+        width: 550px;
+    }
+
+    .templatePerguntas-closed-summary > p {
+        width: 280px;
+    }
+
+    summary > .templatePerguntas-closed-summary {
+        gap: 100px; /* Reduzindo o gap para telas menores */
     }
 }
-@media (max-width: 650px) {
-    .templatePerguntas {
-        width: 450px;
-        gap: 0px;
+
+@media (max-width: 565px) {
+    .templatePerguntas > summary {
+        width: 290px; 
     }
-    .templatePerguntas > p {
-        font-size: 16px;
-        width: 300px;
-    }
-}
-@media (max-width: 470px) {
-    .templatePerguntas {
+
+    .templatePerguntas-open-summary {
         width: 290px;
-        gap: 0px;
-        height: 70px;
+        font-size: 15px;
+        height: 35vh; 
     }
-    .templatePerguntas > p {
+
+    .templatePerguntas-closed-summary > p {
         font-size: 14px;
-        width: 200px;
+        width: 190px; 
+        display: flex;
+    }
+
+    summary > .templatePerguntas-closed-summary {
+        gap: 30px; 
     }
 }
